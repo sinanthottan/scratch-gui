@@ -48,8 +48,8 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 import junkbotImage from './junkbot/CodeBrick.png';
 import junkbotInsetImage from './junkbot/icon_1024.png';
-import junkbotConnectionIconURL from './junkbot/icon_1024.png';
-import junkbotConnectionSmallIconURL from './junkbot/jb-icon.svg';
+import junkbotConnectionIconURL from './junkbot/jb-icon.svg';
+import junkbotConnectionSmallIconURL from './junkbot/junkbot_icon.png';
 
 export default [
   {
@@ -71,7 +71,7 @@ export default [
       internetConnectionRequired: true,
       launchPeripheralConnectionFlow: true,
       useAutoScan: false,
-      connectionIconURL: microbitConnectionIconURL,
+      connectionIconURL: junkbotConnectionIconURL,
       connectionSmallIconURL: microbitConnectionSmallIconURL,
       connectingMessage: (
           <FormattedMessage
