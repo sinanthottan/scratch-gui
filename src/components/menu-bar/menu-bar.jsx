@@ -67,13 +67,13 @@ import styles from './menu-bar.css';
 
 import helpIcon from '../../lib/assets/icon--tutorials.svg';
 import mystuffIcon from './icon--mystuff.png';
-import profileIcon from './skillplay-icon.svg';
+import profileIcon from './icon_jb.png';
 import remixIcon from './icon--remix.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import languageIcon from '../language-selector/language-icon.svg';
 import aboutIcon from './icon--about.svg';
 
-import scratchLogo from './skillplay-logo.svg';
+import scratchLogo from './junkbot-logo.svg';
 
 import sharedMessages from '../../lib/shared-messages';
 
@@ -710,7 +710,7 @@ class MenuBar extends React.Component {
                                                 src={profileIcon}
                                             />
                                             <span>
-                                                {'Skillplay User'}
+                                                {'Junkbot User'}
                                             </span>
                                             <img
                                                 className={styles.dropdownCaretIcon}
